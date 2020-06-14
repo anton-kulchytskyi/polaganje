@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Cabin;
+    src: url(../font/Cabin-Bold.ttf) url(../font/Cabin-BoldItalic.ttf) url(../font/Cabin-Italic.ttf) url(../font/Cabin-Medium.ttf) url(../font/Cabin-MediumItalic.ttf) url(../font/Cabin-Regular.ttf) url(../font/Cabin-SemiBold.ttf) url(../font/Cabin-SemiBoldItalic.ttf);
+}
+body {
+    color: #1F2933;
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+}
+a {
+    cursor: pointer;
+}
+header {
+    display: flex;
+    justify-self: flex-start;
+    padding-left: 150px;
+}
+logo {
+    width: 20%;
+}
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+nav a {
+    padding-right: 15px;
+    text-decoration: none;
+    color: #000;
+    justify-content: center;    
+}
+main {
+    align-items: center;
+}
+.text-photo {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+.text p {
+    text-transform: uppercase;
+}
+.text h2 {
+    font-size: xx-large;
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+.text .send label {
+    font-weight: 900;
+}
+.text .send input[type=tel] {
+    padding: 10px 15px;
+}
+.text .send span {
+    padding-right: 10px;
+}
+.text .send button {
+    background-color: #7B5EED;
+    color: #fff;
+    border: 2px solid #7B5EED;
+    padding: 10px 15px;
+    margin-left: -5px;
+}
+.one-place-text {
+    text-align: center;
+}
+.one-place-text a {
+    text-decoration: none;
+    color: #7B5EED;
+}
+.better {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 200px;
+    margin: 50px 0;
+}
+.better p {
+    opacity: 0.6;
+}
+.pay, .track, .shop {
+    padding: 0 25px;
+}
+.pay, .track, .shop, .send-phone {
+    text-align: center;
+}
+.send-phone {
+    background-color: #7B5EED;
+    color: #fff;
+    padding: 100px 0;
+}
+.send-phone .send label {
+    font-weight: 900;
+}
+.send-phone .send input[type=tel] {
+    padding: 10px 15px;
+}
+.send-phone .send span {
+    padding-right: 10px;
+}
+.send-phone .send button {
+    background-color: #fff;
+    color: #7B5EED;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    margin-left: -5px;
+}
+footer {
+    text-align: center;
+    background-color: #7B5EED;
+    color: #fff
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 10px;
+}

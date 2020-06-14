@@ -1,0 +1,47 @@
+@media screen and (max-width: 800px) {
+    header {
+        padding-left: 20px;
+    }
+    .text-photo {
+        padding: 20px 50px;
+    }
+    .better {
+        padding: 20px 50px;
+    }
+}
+@media screen and (max-width: 600px) {
+    header {
+        padding-left: 0;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 10%;
+    }
+    .text-photo {
+        display: block;
+    }
+}
+@media screen and (max-width: 500px) {
+    nav a {
+        font-size: 12px;
+    }
+    .text-photo {
+        padding: 10px;
+    }
+    .better {
+        padding: 5px;
+        margin: 0;
+    }
+    .better p {
+        font-size: 12px;
+    }
+    .send-phone {
+        padding: 5px;
+    }
+    .pay, .track, .shop {
+        padding: 0 5px;
+    }
+    footer a {
+        padding: 5px;
+    }
+}
